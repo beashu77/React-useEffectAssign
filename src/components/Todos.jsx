@@ -37,7 +37,7 @@ const Todos = () => {
            value ={newTodo}
            onChange={({target})=>setNewTodo(target.value)}
            />
-           <button onClick={saveInfo}>+</button>
+           <button onClick={saveInfo}>Save</button>
        </div>
        
         <div>
