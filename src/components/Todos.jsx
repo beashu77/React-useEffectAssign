@@ -24,7 +24,7 @@ const Todos = () => {
     };
 
     useEffect (()=>{
-        fetch("http://localhost:8080/todos?_page=1&_limit=1")
+        fetch("http://localhost:8080/todos?_page=2&_limit=5")
         .then((r)=>r.json())
         .then((d)=>{
             setTodos(d);
